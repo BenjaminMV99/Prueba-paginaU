@@ -27,10 +27,11 @@ justify-content: space-between;
 
 
 /* seccion 1*/
-.seccion1{
-    background-image: url('../img/harvadr.jpg');
-}
 
+
+
+
+/* seccion 2*/
 .seccion2{
     border: 1px solid red;
     
@@ -52,6 +53,9 @@ justify-content: space-between;
 
 .camp{
     box-shadow: 3px 3px 10px gray;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .camp img{
@@ -61,10 +65,61 @@ justify-content: space-between;
 
 .camp p{
     padding: 20px;
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
+
+/* seccion3 */
+.seccion3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:100px;
+    border: green solid 1px;
+}
+
+.seccion3 img{
+    height: 100%;
+    width: 100%; 
+}
+
+.seccion3 p{
+    text-align: center;
+    padding: 200px;
+    font-size: 30px;
+    color: gray;
+}
+.seccion3 h1{
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+}
+
+/*seccion4*/
+
+/*Seccion 5*/
+.seccion4{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+.redes ul li a img{
+    height: 30px;
+}
+
+.redes ul{
+    display: flex;
+}
+.redes ul li{
+    list-style-type: none;
+}
+.redes ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+}
 
 
 
