@@ -49,7 +49,7 @@ background-color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    padding:100px ;
+    padding:100px;
     background-color: whitesmoke;
 }
 
@@ -72,6 +72,7 @@ background-color: whitesmoke;
     text-align: center;
     margin-bottom: 100px;
     margin-top: 100px;
+    color: gray;
 }
 
 /*Seccion3*/
@@ -114,11 +115,9 @@ background-color: whitesmoke;
 
 .sec4 button{
     padding: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
 }
 .sec4 input{
+    margin-bottom: 20px;
     padding: 50px;
     width: 50%;
 }
